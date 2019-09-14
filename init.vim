@@ -68,12 +68,15 @@ colorscheme dracula
 
 let g:ale_linters = {
 \   'javascript': ['eslint'],
+\   'rust': ['cargo'],
 \}
 
 let g:ycm_min_num_of_chars_for_completion = 99
 
 let g:ale_fixers = {
 \    'javascript': ['eslint'],
-\    'scss': ['prettier']
+\    'scss': ['prettier'],
+\    'rust': ['rustfmt']
 \}
 
+let g:better_whitespace_enabled=0
