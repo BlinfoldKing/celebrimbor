@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
+    Plug 'ntpeters/vim-better-whitespace'
     Plug 'ajmwagar/vim-deus'
-    Plug 'tpope/vim-fugitive'
     Plug 'hecal3/vim-leader-guide'
     Plug 'majutsushi/tagbar'
     Plug 'dense-analysis/ale'
@@ -14,22 +14,22 @@ call plug#begin('~/.vim/plugged')
     Plug 'sbdchd/neoformat'
     Plug 'dunckr/vim-monokai-soda'
     Plug 'mxw/vim-jsx'
-	Plug 'rhysd/vim-clang-format'
-	Plug 'tpope/vim-commentary'
-	Plug 'ervandew/supertab'
-	Plug 'vim-scripts/sudo.vim'
-	Plug 'jamshedvesuna/vim-markdown-preview'
-	Plug 'zchee/deoplete-jedi'
-	Plug 'ryanoasis/vim-devicons'
-	Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-	Plug 'scrooloose/nerdtree'
-	Plug 'vimlab/split-term.vim'
-	Plug 'mattn/emmet-vim'
-	Plug 'tpope/vim-fugitive'
-	Plug 'tpope/vim-surround'
-	Plug 'vim-airline/vim-airline'
-	Plug 'airblade/vim-gitgutter'
+    Plug 'rhysd/vim-clang-format'
+    Plug 'tpope/vim-commentary'
+    Plug 'ervandew/supertab'
+    Plug 'vim-scripts/sudo.vim'
+    Plug 'jamshedvesuna/vim-markdown-preview'
+    Plug 'zchee/deoplete-jedi'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'scrooloose/nerdtree'
+    Plug 'vimlab/split-term.vim'
+    Plug 'mattn/emmet-vim'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-surround'
+    Plug 'vim-airline/vim-airline'
+    Plug 'airblade/vim-gitgutter'
     Plug 'elixir-lang/vim-elixir'
     Plug 'thinca/vim-ref'
     Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
@@ -62,22 +62,22 @@ call plug#begin('~/.vim/plugged')
     Plug 'jparise/vim-graphql'
     Plug 'liuchengxu/space-vim-dark'
     Plug 'prettier/vim-prettier', {
-        \ 'do': 'yarn install',
-        \ 'branch': 'release/1.x',
-        \ 'for': [
-        \ 'javascript',
-        \ 'typescript',
-        \ 'css',
-        \ 'less',
-        \ 'scss',
-        \ 'json',
-        \ 'graphql',
-        \ 'markdown',
-        \ 'vue',
-        \ 'lua',
-        \ 'php',
-        \ 'python',
-        \ 'ruby',
-        \ 'html',
-        \ 'swift' ] }
+            \ 'do': 'yarn install',
+            \ 'branch': 'release/1.x',
+            \ 'for': [
+            \ 'javascript',
+            \ 'typescript',
+            \ 'css',
+            \ 'less',
+            \ 'scss',
+            \ 'json',
+            \ 'graphql',
+            \ 'markdown',
+            \ 'vue',
+            \ 'lua',
+            \ 'php',
+            \ 'python',
+            \ 'ruby',
+            \ 'html',
+            \ 'swift' ] }
 call plug#end()

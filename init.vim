@@ -2,8 +2,8 @@ source ./plug.vim
 source ./command.vim
 
 set hidden
-set nu
-set rnu
+set number
+set relativenumber
 set cursorline
 set splitbelow
 set splitright
@@ -52,15 +52,15 @@ let g:deoplete#sources#rust#racer_binary='/Users/ganeshadanu/rustsrc/rust/src'
  \ 'go': '[^. *\t]\.\w*',
  \})
 
-let g:racer_cmd="/Users/ganeshadanu/.cargo/bin/racer"
+let g:racer_cmd='/Users/ganeshadanu/.cargo/bin/racer'
 
-let g:go_highlight_structs = 1 
+let g:go_highlight_structs = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_function_calls = 1
-let g:go_fmt_command = "goimports"
+let g:go_fmt_command = 'goimports'
 
 let g:rustfmt_autosave = 1
 
