@@ -1,5 +1,5 @@
-source ./plug.vim
-source ./command.vim
+source ~/.config/nvim/plug.vim
+source ~/.config/nvim/command.vim
 
 set hidden
 set number
